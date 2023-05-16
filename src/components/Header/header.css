@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+}
+
+.header nav {
+    background-color: var(--backgroundColor);
+    font-size: var(--1remSize);
+    text-align: left;
+    padding-left: var(--1remSize);
+}
+
+.header nav a {
+    padding: 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.header nav a:hover {
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}

@@ -1,0 +1,14 @@
+main.shop-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: var(--halfSize);
+}
+
+section.product-container {
+    padding: var(--halfSize);
+    border-right: 1px solid var(--textColor);
+}
+
+aside.cart-container {
+    padding: var(--halfSize);
+}

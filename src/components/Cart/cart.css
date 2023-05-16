@@ -1,0 +1,19 @@
+div.cart-container h3 {
+    font-weight: 600;
+}
+
+div.cart-container ul {
+    list-style: none;
+    font-size: var(--listFontSize);
+    padding: 0;
+}
+
+div.cart-container li {
+    --halfSize: 0.3rem;
+    padding: var(--halfSize) 0;
+}
+
+div.cart-container li:last-child {
+    color: var(--warningColor);
+    font-size: var(--1remSize);
+}
