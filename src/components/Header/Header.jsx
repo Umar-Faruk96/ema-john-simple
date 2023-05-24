@@ -5,11 +5,13 @@ import "./header.css";
 const Header = () => {
   return (
     <header className="header">
-      <img src={logo} alt="logo" style={{ width: "20vw" }} />
+      <a href="/">
+        <img src={logo} alt="logo" style={{ width: "20vw" }} />
+      </a>
       <nav>
         <a href="/shop">Shop</a>
         <a href="/review">Order Review</a>
-        <a href="/manage">Manage Inventory</a>
+        <a href="/inventory">Manage Inventory</a>
       </nav>
     </header>
   );

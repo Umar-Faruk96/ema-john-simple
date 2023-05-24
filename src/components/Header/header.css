@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    margin: var(--1remSize) 0;
 }
 
 .header nav {
@@ -7,10 +8,11 @@
     font-size: var(--1remSize);
     text-align: left;
     padding-left: var(--1remSize);
+    margin: var(--halfSize) 0;
 }
 
 .header nav a {
-    padding: 0.5rem;
+    padding: var(--navPad);
     display: inline-block;
     text-decoration: none;
     color: var(--textColor);
